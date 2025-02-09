@@ -1,0 +1,46 @@
+# Informe sobre el Uso de Programación Orientada a Objetos (POO) en el Sistema de Gestión de Tareas
+
+## Introducción
+
+En este informe se explica cómo se aplicaron algunos conceptos básicos de **Programación Orientada a Objetos (POO)** en el proyecto de gestión de tareas hecho en C#. El objetivo del proyecto fue crear un programa de consola que permita agregar, ver, completar y eliminar tareas de una manera sencilla.
+
+## Clases e Interfaces
+
+Se crearon varias clases para organizar el código:
+
+- **`ITarea` (Interfaz):** Define qué funciones deben tener todas las tareas, como mostrar la tarea, marcarla como completada y verificar si ya está hecha.
+
+- **`Tarea` (Clase Principal):** Es la clase base que representa una tarea simple. Tiene cosas básicas como la descripción de la tarea y si está completada o no.
+
+- **`TareaConFecha`:** Esta clase hereda de `Tarea` y le agrega la opción de ponerle una fecha límite a la tarea.
+
+- **`TareaPrioritaria`:** También hereda de `Tarea` y le añade un nivel de prioridad (Alta, Media o Baja) para saber cuáles tareas son más importantes.
+
+- **`GestionTareas`:** Es la clase que maneja la lista de tareas. Permite agregar nuevas tareas, eliminarlas, mostrarlas y filtrarlas por prioridad.
+
+## Cómo se Usaron los Conceptos de POO
+
+### 1. **Encapsulamiento**
+
+Se usó para proteger los datos. Por ejemplo, la propiedad que indica si una tarea está completada solo se puede cambiar usando un método específico, así se evita que alguien cambie ese dato por accidente.
+
+### 2. **Herencia**
+
+Se utilizó para evitar repetir código. Las clases `TareaConFecha` y `TareaPrioritaria` heredan de `Tarea`, así que no fue necesario volver a escribir las mismas cosas que ya tenía la clase base.
+
+### 3. **Polimorfismo**
+
+Esto se usó para que diferentes tipos de tareas (simples, con fecha o con prioridad) puedan mostrarse de la misma forma. Aunque son diferentes, el programa sabe cómo manejar cada una gracias a que comparten la misma estructura.
+
+### 4. **Abstracción**
+
+Se aplicó al crear la interfaz `ITarea`, que define lo básico que deben tener todas las tareas. Esto ayuda a que el programa sea más fácil de entender y de modificar si se quiere agregar algo nuevo en el futuro.
+
+## Manejo de Errores
+
+Se usaron bloques `try-catch` para manejar errores cuando el usuario ingresa datos incorrectos. Por ejemplo, si se escribe una letra en lugar de un número, el programa no se cierra de golpe, sino que muestra un mensaje de error y permite intentarlo de nuevo.
+
+## Conclusión
+
+El sistema de gestión de tareas permite practicar los conceptos básicos de la Programación Orientada a Objetos de una forma simple. Gracias al uso de clases, herencia e interfaces, el código quedó más organizado y fácil de entender. Además, se manejaron errores para que el programa funcione sin problemas aunque el usuario cometa errores al ingresar datos.
+
