@@ -1,0 +1,14 @@
+C:\Users\Rip\source\repos\InvTareas\InvTareas\bin\Debug\net8.0\InvTareas.exe
+C:\Users\Rip\source\repos\InvTareas\InvTareas\bin\Debug\net8.0\InvTareas.deps.json
+C:\Users\Rip\source\repos\InvTareas\InvTareas\bin\Debug\net8.0\InvTareas.runtimeconfig.json
+C:\Users\Rip\source\repos\InvTareas\InvTareas\bin\Debug\net8.0\InvTareas.dll
+C:\Users\Rip\source\repos\InvTareas\InvTareas\bin\Debug\net8.0\InvTareas.pdb
+C:\Users\Rip\source\repos\InvTareas\InvTareas\obj\Debug\net8.0\InvTareas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rip\source\repos\InvTareas\InvTareas\obj\Debug\net8.0\InvTareas.AssemblyInfoInputs.cache
+C:\Users\Rip\source\repos\InvTareas\InvTareas\obj\Debug\net8.0\InvTareas.AssemblyInfo.cs
+C:\Users\Rip\source\repos\InvTareas\InvTareas\obj\Debug\net8.0\InvTareas.csproj.CoreCompileInputs.cache
+C:\Users\Rip\source\repos\InvTareas\InvTareas\obj\Debug\net8.0\InvTareas.dll
+C:\Users\Rip\source\repos\InvTareas\InvTareas\obj\Debug\net8.0\refint\InvTareas.dll
+C:\Users\Rip\source\repos\InvTareas\InvTareas\obj\Debug\net8.0\InvTareas.pdb
+C:\Users\Rip\source\repos\InvTareas\InvTareas\obj\Debug\net8.0\InvTareas.genruntimeconfig.cache
+C:\Users\Rip\source\repos\InvTareas\InvTareas\obj\Debug\net8.0\ref\InvTareas.dll
