@@ -21,10 +21,12 @@ Este sistema de **Gestión de Tareas Personales** fue desarrollado en **C#** uti
 - `InvTareas/`: Contiene el código fuente del sistema.
 - `InvTareas.sln`: Archivo de solución para Visual Studio.
 - `README.md`: Documento con información del proyecto.
-- `LICENSE`: Archivo de licencia del proyecto.
+
 
 ## 📦 **Cómo Ejecutar el Proyecto**
 
 1. Cloná el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/Programacion3UAM.git
+   git clone https://github.com/ripchaos/Programacion3UAM.git
+
+
