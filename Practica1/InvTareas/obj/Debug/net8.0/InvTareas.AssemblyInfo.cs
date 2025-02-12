@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InvTareas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3fe4e32b5ca6bb6c9b53f0346c64d2aabb6c92b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa2351c0b13a13fbc42282f0063b507fd9f34418")]
 [assembly: System.Reflection.AssemblyProductAttribute("InvTareas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InvTareas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
