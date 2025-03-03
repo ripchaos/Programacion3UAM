@@ -12,3 +12,18 @@ C:\Users\jmari\source\repos\ToDoApp\ToDoApp\obj\Debug\net8.0\refint\ToDoApp.dll
 C:\Users\jmari\source\repos\ToDoApp\ToDoApp\obj\Debug\net8.0\ToDoApp.pdb
 C:\Users\jmari\source\repos\ToDoApp\ToDoApp\obj\Debug\net8.0\ToDoApp.genruntimeconfig.cache
 C:\Users\jmari\source\repos\ToDoApp\ToDoApp\obj\Debug\net8.0\ref\ToDoApp.dll
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\bin\Debug\net8.0\ToDoApp.exe
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\bin\Debug\net8.0\ToDoApp.deps.json
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\bin\Debug\net8.0\ToDoApp.runtimeconfig.json
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\bin\Debug\net8.0\ToDoApp.dll
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\bin\Debug\net8.0\ToDoApp.pdb
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\obj\Debug\net8.0\ToDoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\obj\Debug\net8.0\ToDoApp.AssemblyInfoInputs.cache
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\obj\Debug\net8.0\ToDoApp.AssemblyInfo.cs
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\obj\Debug\net8.0\ToDoApp.csproj.CoreCompileInputs.cache
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\obj\Debug\net8.0\ToDoApp.sourcelink.json
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\obj\Debug\net8.0\ToDoApp.dll
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\obj\Debug\net8.0\refint\ToDoApp.dll
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\obj\Debug\net8.0\ToDoApp.pdb
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\obj\Debug\net8.0\ToDoApp.genruntimeconfig.cache
+C:\Users\Rip\Documents\Github\Programacion3UAM\Prueba 1\ToDoApp\obj\Debug\net8.0\ref\ToDoApp.dll

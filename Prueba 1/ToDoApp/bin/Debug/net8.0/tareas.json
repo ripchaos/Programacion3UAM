@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "Dependencias": [],
+    "Titulo": "tarea de prueba",
+    "Descripcion": "es una prueba",
+    "Prioridad": "alta",
+    "Completada": false,
+    "FechaVencimiento": "2025-10-12T00:00:00"
+  }
+]

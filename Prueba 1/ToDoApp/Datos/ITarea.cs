@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 
-// Definición de la interfaz ITarea
+// ✅ Ajustado para evitar problemas de serialización y compilación
 public interface ITarea
 {
     void MostrarTarea();
     void MarcarCompletada();
     void Editar(string nuevoTitulo, string nuevaDescripcion, string nuevaPrioridad, DateTime nuevaFecha);
 
-    // Métodos para subtareas
-    void AgregarSubtarea(ITarea subtarea);
-    List<ITarea> ObtenerSubtareas();
+    // ✅ Ahora usa `Tarea` en lugar de `ITarea` para evitar problemas de implementación
+    void AgregarSubtarea(Tarea subtarea);
+    List<Tarea> ObtenerSubtareas();
 }
