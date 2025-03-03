@@ -212,6 +212,12 @@ Dictionary<int, Action> menuOpciones = new Dictionary<int, Action>
     Pausar();
 }},
 
+{ 7, () => {
+    MostrarCarga("Limpiando todas las tareas");
+    gestor.LimpiarTareas();
+    Pausar();
+}},
+
 
     { 8, () => { // ✅ Filtrar y Buscar tareas con opciones reales
     MostrarCarga("Filtrando tareas");
