@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Rip\\source\\repos\\FutbolApp\\FutbolApp\\wwwroot\\img\\background.webp",
+      "PackagePath": "staticwebassets\\img\\background.webp"
+    },
+    {
       "Id": "C:\\Users\\Rip\\source\\repos\\FutbolApp\\FutbolApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

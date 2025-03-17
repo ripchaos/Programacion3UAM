@@ -2,11 +2,49 @@
     ViewData["Title"] = "Bienvenido a FutApp";
 }
 
-<div class="container text-center mt-5">
-    <h1 class="display-4">Bienvenido a FutApp</h1>
-    <p class="lead">Registra a tu jugador favorito y dale un seguimiento detallado.</p>
-    <p>Gestiona equipos, jugadores y mantén un historial actualizado de su rendimiento.</p>
+<style>
+    body {
+        background: url('/img/background.webp') no-repeat center center fixed;
+        background-size: cover;
+    }
 
-    <a class="btn btn-primary btn-lg mt-3" asp-controller="Clubes" asp-action="Index">Ver Clubes</a>
-    <a class="btn btn-success btn-lg mt-3" asp-controller="Futbolistas" asp-action="Index">Ver Jugadores</a>
+    .overlay {
+        background: rgba(0, 0, 0, 0.4); /* Reducimos opacidad para ver más el fondo */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .content {
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 180px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    }
+
+    .btn-custom {
+        margin-top: 20px;
+        font-size: 1.2rem;
+        padding: 12px 24px;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+</style>
+
+<div class="overlay"></div>
+<div class="container content">
+    <h1>Bienvenido a FutApp <span>⚽</span></h1>
+    <p class="lead">Registra a tu jugador favorito y dale seguimiento en la Champions League.</p>
+
+    <a class="btn btn-primary btn-lg btn-custom" asp-controller="Clubes" asp-action="Index">Ver Clubes</a>
+    <a class="btn btn-success btn-lg btn-custom" asp-controller="Futbolistas" asp-action="Index">Ver Jugadores</a>
 </div>

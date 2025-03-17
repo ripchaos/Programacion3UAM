@@ -1,59 +1,44 @@
 ﻿@model IEnumerable<Futbolista>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Lista de Futbolistas";
 }
 
-<h1>Index</h1>
+<div class="container mt-4">
+    <h2 class="text-center">⚽ Jugadores Históricos de la Champions League</h2>
+    <p class="text-center">Aquí puedes ver a los jugadores más legendarios de la UCL.</p>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NombreCompleto)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EdadActual)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Rol)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CamisetaNumero)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Club)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NombreCompleto)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EdadActual)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Rol)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CamisetaNumero)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Club.NombreClub)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.FutbolistaId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.FutbolistaId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.FutbolistaId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <div class="text-end mb-3">
+        <a asp-action="Create" class="btn btn-success">➕ Agregar Nuevo Jugador</a>
+    </div>
+
+    <table class="table table-hover table-bordered text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>👤 Nombre</th>
+                <th>🎂 Edad</th>
+                <th>🏅 Posición</th>
+                <th>🎽 Número</th>
+                <th>🏟️ Club</th>
+                <th>⚙️ Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var jugador in Model)
+            {
+                <tr>
+                    <td><strong>@jugador.NombreCompleto</strong></td>
+                    <td>@jugador.EdadActual</td>
+                    <td>@jugador.Rol</td>
+                    <td>@jugador.CamisetaNumero</td>
+                    <td>@jugador.Club.NombreClub</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@jugador.FutbolistaId" class="btn btn-warning btn-sm">✏️ Editar</a>
+                        <a asp-action="Details" asp-route-id="@jugador.FutbolistaId" class="btn btn-info btn-sm">🔍 Detalles</a>
+                        <a asp-action="Delete" asp-route-id="@jugador.FutbolistaId" class="btn btn-danger btn-sm">🗑️ Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
